@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Welcome"
             }
+          },
+          {
+            "id": "869d7f82c7359518",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "30616a45b8564280",
@@ -224,8 +239,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c62b82c4695c8c33",
+  "active": "a69518cd3214a821",
   "lastOpenFiles": [
+    "Untitled.md",
     "Welcome.md",
     "Untitled 1.base",
     "Untitled.base",
