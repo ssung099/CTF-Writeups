@@ -1,0 +1,10 @@
+{
+  "terminal:open-terminal.default": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ]
+}
