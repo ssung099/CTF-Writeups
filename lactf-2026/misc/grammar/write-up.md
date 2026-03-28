@@ -1,5 +1,10 @@
-# grammar
-
+---
+title: grammar
+date: 2026-02-25
+tags: ["lactf-2026"]
+categories: ["misc"]
+draft: true
+---
 ## Summary
 The `grammar` challenge authors provide the parse tree of the flag and the grammar that defines the structure of flag. The grammar and the parse tree can be used together to generate the full flag.
 

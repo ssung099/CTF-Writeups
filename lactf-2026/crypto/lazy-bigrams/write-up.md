@@ -1,4 +1,10 @@
-# lazy-bigrams
+---
+title: "lazy-bigrams"
+date: 2026-02-25
+tags: ["lactf-2026"]
+categories: ["crypto"]
+draft: false
+---
 
 ## Summary
 This challenge provides a Linux CLI program that is used to encrypt the flag by applying NATO phonetic alphabet expansion twice before performing a random bigram substitution cipher. The vulnerability in this crytographic algorithm lies in the predictable structure introduced by the double phonetic expansion, which allows the known flag prefix 'lactf{' to reveal enough bigram mappings to recover the full flag.

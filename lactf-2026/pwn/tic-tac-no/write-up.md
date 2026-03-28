@@ -1,5 +1,10 @@
-# tic-tac-no
-
+---
+title: "tic-tac-no"
+date: 2026-02-25
+tags: ["lactf-2026"]
+categories: ["pwn"]
+draft: false
+---
 ## Summary
 This challenge provides a Linux CLI program with an out-of-bounds write vulnerability that allows the user to modify variables.
 
