@@ -1,6 +1,6 @@
 ---
 title: grammar
-date: 2026-02-25
+date: 2026-03-27
 tags: ["lactf-2026"]
 categories: ["misc"]
 draft: false
