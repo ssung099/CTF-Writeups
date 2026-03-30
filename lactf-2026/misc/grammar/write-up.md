@@ -19,7 +19,7 @@ The production rule of the flag is defined as `start, word, {underscore, word}, 
 
 From this production rule and the provided parse tree, we can further reason about the production rule of the flag, which can be expanded as to `start, word, underscore, word, underscore, word, end`. Since we also know that `start`, `underscore`, and `end` are production rules for terminal characters, we only need to figure out the how each `word` of the flag was structured. From these information, we can partially fill in the parse tree.
 
-![partial](./partial.png)
+![partial](https://raw.githubusercontent.com/ssung099/CTF-Writeups/main/lactf-2026/misc/grammar/partial.png)
 
 The next step is to figure out how each word in the flag was produced. From the grammar rules, we see that the production of word is `fragment, {fragment}`. In other words, a `word` is produced by one or more repetitions of `fragment`. `fragment` is defined as `cd | vc | vd | c | d`, meaning that each fragment can be produced by any of the nonterminals `cd`, `vc`, `vd`, `c`, `d`.
 
