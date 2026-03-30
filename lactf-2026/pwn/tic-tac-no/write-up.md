@@ -9,8 +9,8 @@ draft: false
 This challenge provides a Linux CLI program with an out-of-bounds write vulnerability that allows the user to modify variables.
 
 Artifacts:
-- `chall/chall`: vulnerable executable program provided by the challenge authors
-- `chall/chall.c`:  vulnerable program source code provided by challenge authors
+- [`chall`](https://github.com/ssung099/CTF-Writeups/blob/main/lactf-2026/pwn/tic-tac-no/chall/chall): vulnerable executable program provided by the challenge authors
+- [`chall.c`](https://github.com/ssung099/CTF-Writeups/blob/main/lactf-2026/pwn/tic-tac-no/chall/chall.c):  vulnerable program source code provided by challenge authors
 
 ## Context 
 

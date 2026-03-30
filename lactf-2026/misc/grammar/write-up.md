@@ -9,8 +9,8 @@ draft: true
 The `grammar` challenge authors provide the parse tree of the flag and the grammar that defines the structure of flag. The grammar and the parse tree can be used together to generate the full flag.
 
 Artifacts:
-- `tree.png`: the parse tree of the flag
-- `grammar-notes.txt`: the grammar rules defining the structure of the flag.
+- [`tree.png`](https://github.com/ssung099/CTF-Writeups/blob/main/lactf-2026/misc/grammar/chall/tree.png): the parse tree of the flag
+- [`grammar-notes.txt`](https://github.com/ssung099/CTF-Writeups/blob/main/lactf-2026/misc/grammar/chall/grammar-notes.txt): the grammar rules defining the structure of the flag.
 
 ## Solve Explanation
 Looking at the `grammar-notes.txt`, we can see that the flag is defined in EBNF (Extended Backus-Naur Form).

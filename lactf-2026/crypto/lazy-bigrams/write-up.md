@@ -10,9 +10,9 @@ draft: false
 This challenge provides a Linux CLI program that is used to encrypt the flag by applying NATO phonetic alphabet expansion twice before performing a random bigram substitution cipher. The vulnerability in this crytographic algorithm lies in the predictable structure introduced by the double phonetic expansion, which allows the known flag prefix 'lactf{' to reveal enough bigram mappings to recover the full flag.
 
 Artifacts:
-- `chall.py`: the encryption algorithm used to generate the ciphertext.
-- `ct.txt`: contains the ciphertext generated using the flag and the encryption scheme in `chall.py`
-- `solve.py`: the exploit script that recovers the flag from the ciphertext provided by `ct.txt`
+- [`chall.py`](https://github.com/ssung099/CTF-Writeups/blob/main/lactf-2026/crypto/lazy-bigrams/chall/chall.py): the encryption algorithm used to generate the ciphertext.
+- [`ct.txt`](https://github.com/ssung099/CTF-Writeups/blob/main/lactf-2026/crypto/lazy-bigrams/chall/ct.txt): contains the ciphertext generated using the flag and the encryption scheme in `chall.py`
+- [`solve.py`](https://github.com/ssung099/CTF-Writeups/blob/main/lactf-2026/crypto/lazy-bigrams/solve.py): the exploit script that recovers the flag from the ciphertext provided by `ct.txt`
 
 ## Context
 The `lazy_bigrams` challenge authors provides the ciphertext and the encryption scheme to generate the ciphertext from the flag.
