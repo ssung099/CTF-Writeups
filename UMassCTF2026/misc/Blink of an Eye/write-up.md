@@ -2,7 +2,7 @@
 title: "Blink of an Eye"
 date: 2026-04-13
 tags: ["UMassCTF-2026"]
-categories: ["osint"]["crypto"]
+categories: ["misc", "osint", "crypto"]
 draft: false
 ---
 
@@ -28,7 +28,7 @@ pieces = [
 ```
 
 Artifacts:
-- `nums.txt`: contains an array `pieces` with integers as its elements.
+- [`nums.txt`](https://github.com/ssung099/CTF-Writeups/blob/main/UMassCTF2026/misc/Blink%20of%20an%20Eye/nums.txt): contains an array `pieces` with integers as its elements.
 
 ## Solve Explanation:
 
