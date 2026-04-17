@@ -3,7 +3,7 @@ title: "Look Out"
 date: 2026-04-17
 tags: ["Incognito 7.0"]
 categories: ["crypto"]
-draft: true
+draft: false
 ---
 
 ## Summary
@@ -11,11 +11,13 @@ This challenge provides us with the following description and an `Untitled_docum
 ```
 Look it's plane, no it's a jet, no it's a bird!!!!!!!
 ```
-<!-- Insert Image -->
+
+Here is a picture of what the PDF file contains:
+![birds](https://raw.githubusercontent.com/ssung099/CTF-Writeups/main/Incognito%207.0/crypto/Look%20Out/birds.png)
 
 Artifacts:
-- `Untitled_document.pdf`: contains a picture of birds on a wire.
-- `solve.py`: a python script that decodes the metadata binary and XORs it with a key.
+- [`Untitled_document.pdf`](https://github.com/ssung099/CTF-Writeups/blob/main/Incognito%207.0/crypto/Look%20Out/Untitled_document.pdf): contains a picture of birds on a wire.
+- [`solve.py`](https://github.com/ssung099/CTF-Writeups/blob/main/Incognito%207.0/crypto/Look%20Out/solve.py): a python script that decodes the metadata binary and XORs it with a key.
 
 ## Solve Explanation
 Looking at the PDF file directly, there does not seem to be anything that can help us obtain a flag.
