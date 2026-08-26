@@ -1,11 +1,16 @@
-# tic-tac-no
-
+---
+title: "tic-tac-no"
+date: 2026-02-25
+tags: ["lactf-2026"]
+categories: ["pwn"]
+draft: false
+---
 ## Summary
 This challenge provides a Linux CLI program with an out-of-bounds write vulnerability that allows the user to modify variables.
 
 Artifacts:
-- `chall/chall`: vulnerable executable program provided by the challenge authors
-- `chall/chall.c`:  vulnerable program source code provided by challenge authors
+- [`chall`](https://github.com/ssung099/CTF-Writeups/blob/main/lactf-2026/pwn/tic-tac-no/chall/chall): vulnerable executable program provided by the challenge authors
+- [`chall.c`](https://github.com/ssung099/CTF-Writeups/blob/main/lactf-2026/pwn/tic-tac-no/chall/chall.c):  vulnerable program source code provided by challenge authors
 
 ## Context 
 
@@ -57,7 +62,7 @@ The exploit involves inputting an invalid row and column to get an index outside
 
 Using `Binary Ninja`, we can calculate the offset between the addresses of the `board` buffer and the `computer` variable.
 
-![screenshot](./tic-tac-no_binaryninja.png)
+![screenshot](https://raw.githubusercontent.com/ssung099/CTF-Writeups/main/lactf-2026/pwn/tic-tac-no/tic-tac-no_binaryninja.png)
 
 From the screenshot, we can see that `board` is located at `0x00404068` and `computer` is located at `0x00404051`. By taking the difference between these two addresses, we can calculate the offset between the variables, which turns out to be `-0x17` (-23 in decimal).
 
