@@ -3,7 +3,7 @@ title: "weirdSnake"
 date: 2026-08-26
 tags: ["picoCTF"]
 categories: ["rev"]
-draft: true
+draft: false
 ---
 
 ## Summary
