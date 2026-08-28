@@ -7,14 +7,13 @@ draft: false
 ---
 
 ## Summary
-This challenge provides an x86-64 executable file `out` with the following description:
-
+This challenge provides a file `out` with the following description:
 ```
 Reverse this linux executable?
 ```
 
 Artifacts:
-- [out](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/packer/chall/out): the x86-64 executable file provided by the challenge authors
+- [out](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/packer/chall/out): the chall file
 
 ## Solve explanation
 Running the executable, we are prompted to enter a password:
