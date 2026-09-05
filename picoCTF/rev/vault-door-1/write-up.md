@@ -14,7 +14,7 @@ This vault uses some complicated arrays! I hope you can make sense of it, specia
 
 Artifacts:
 - [VaultDoor1.java](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-1/chall/VaultDoor1.java): the chall file
-- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-1/chall/solve.py): the solve script
+- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-1/solve.py): the solve script
 
 ## Solve explanation
 The challenge provides us with Java source code that checks if our input is correct through a function `checkPassword`.

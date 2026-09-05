@@ -14,7 +14,7 @@ This vault uses an XOR encryption scheme.
 
 Artifacts:
 - [VaultDoor6.java](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-6/chall/VaultDoor6.java): the chall file
-- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-6/chall/solve.py): the solve script
+- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-6/solve.py): the solve script
 
 ## Solve Explanation
 Similar to the previous `Vault Door` challenges, the challenge file has a `checkPassword` function that verifies our input.

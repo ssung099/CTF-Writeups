@@ -1,5 +1,5 @@
 ---
-title: "unpackme.flag.py"
+title: "unpackme.py"
 date: 2026-08-29
 tags: ["picoCTF"]
 categories: ["rev"]
@@ -14,7 +14,7 @@ Reverse engineer this Python program.
 ```
 
 Artifacts:
-- [unpackme.flag.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/unpackme.flag.py/chall/unpackme.flag.py): the chall file
+- [unpackme.flag.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/unpackme.py/chall/unpackme.flag.py): the chall file
 
 ## Solve explanation
 Let's first inspect the source code provided to us.

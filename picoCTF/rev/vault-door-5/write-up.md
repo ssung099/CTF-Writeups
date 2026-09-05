@@ -14,7 +14,6 @@ In the last challenge, you mastered octal (base 8), decimal (base 10), and hexad
 
 Artifacts:
 - [VaultDoor5.java](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-5/chall/VaultDoor5.java): the chall file
-- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-5/chall/solve.py): the solve script
 
 ## Solve Explanation
 Similar to the previous `Vault Door` challenges, the challenge file has a `checkPassword` function that verifies our input.

@@ -14,7 +14,7 @@ This vault uses ASCII encoding for the password.
 
 Artifacts:
 - [VaultDoor4.java](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-4/chall/VaultDoor4.java): the chall file
-- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-4/chall/solve.py): the solve script
+- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-4/solve.py): the solve script
 
 ## Solve Explanation
 Like the previous `Vault Door` challenges, this challenge provides us with Java source code with a `checkPassword` function that checks whether our input value is correct.

@@ -14,7 +14,7 @@ This vault uses for-loops and byte arrays.
  
 Artifacts:
 - [VaultDoor3.java](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-3/chall/VaultDoor3.java): the chall file
-- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-3/chall/solve.py): the solve script
+- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-3/solve.py): the solve script
 
 ## Solve Explanation
 Like the previous `Vault Door` challenge, this challenge provides us with Java source code with a `checkPassword` function that checks our input value.
