@@ -9,7 +9,7 @@ draft: false
 ## Challenge Description
 This challenge provides us with a Java source file with the following description:
 ```
-This vault uses some complicated arrays! I hope you can make sense of it, special agent. The source code for this vault is here: VaultDoor1.java
+This vault uses some complicated arrays! I hope you can make sense of it, special agent.
 ```
 
 Artifacts:

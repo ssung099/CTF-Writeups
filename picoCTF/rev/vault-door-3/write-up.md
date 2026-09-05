@@ -10,7 +10,6 @@ draft: false
 This challenge provides us with a Java source file with the following description:
 ```
 This vault uses for-loops and byte arrays.
-The source code for this vault is here: VaultDoor3.java
 ```
  
 Artifacts:
@@ -44,7 +43,7 @@ public boolean checkPassword(String password) {
 }
 ```
 
-This functions seems to scramble the inputted value using four `for` loops and checks the scrambled value against the fixed value `jU5t_a_sna_3lpm13gf49_u_4_m9r540`. This means that to find the correct input value, all we need to do is unscramble this value back by reversing the steps in the `for` loops.
+This function seems to scramble the inputted value using four `for` loops and checks the scrambled value against the fixed value `jU5t_a_sna_3lpm13gf49_u_4_m9r540`. This means that to find the correct input value, all we need to do is unscramble this value back by reversing the steps in the `for` loops.
 
 Looking at each of the `for` loops, they do not seem to modify the same index twice.
 
