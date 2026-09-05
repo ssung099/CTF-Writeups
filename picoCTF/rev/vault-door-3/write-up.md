@@ -1,6 +1,6 @@
 ---
 title: "vault-door-3"
-date: 2026-08-30
+date: 2026-09-04
 tags: ["picoCTF"]
 categories: ["rev"]
 draft: false
