@@ -6,15 +6,17 @@ categories: ["rev"]
 draft: false
 ---
 
-## Summary
-This challenge provides us with a Java source file containing a `checkPassword` function that URL-encodes and Base64-encodes our input before checking it against a fixed value.
+## Challenge Description
+This challenge provides us with a Java source file with the following description:
+```
+In the last challenge, you mastered octal (base 8), decimal (base 10), and hexadecimal (base 16) numbers, but this vault door uses a different change of base as well as URL encoding!
+```
 
 Artifacts:
 - [VaultDoor5.java](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-5/chall/VaultDoor5.java): the chall file
 - [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/picoCTF/rev/vault-door-5/chall/solve.py): the solve script
 
 ## Solve Explanation
-
 Similar to the previous `Vault Door` challenges, the challenge file has a `checkPassword` function that verifies our input.
 
 ```java
