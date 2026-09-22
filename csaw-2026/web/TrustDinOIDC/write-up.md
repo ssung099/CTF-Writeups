@@ -15,7 +15,7 @@ https://dino2auth.ctf.csaw.io/
 ```
 
 Artifacts:
-- [solve.py](https://raw.githubusercontent.com/ssung099/CTF-Writeups/main/csaw-2026/web/TrustDinOIDC/solve.py): the script used to forge a JWT token.
+- [solve.py](https://github.com/ssung099/CTF-Writeups/blob/main/csaw-2026/web/TrustDinOIDC/solve.py): the script used to forge a JWT token.
 
 ## Solve explanation
 Visiting the provided link, the home page looks like the following:
